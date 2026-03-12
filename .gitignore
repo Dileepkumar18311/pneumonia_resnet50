@@ -1,0 +1,17 @@
+# Large Data
+chest_xray/
+*.zip
+
+# Virtual Environment
+venv/
+.env
+
+# Model Files (Optional)
+# If the .keras file is >100MB, GitHub will reject it unless you use Git LFS.
+# It is often better to exclude the model and provide a download link.
+*.keras
+*.h5
+
+# Python junk
+__pycache__/
+.ipynb_checkpoints/
